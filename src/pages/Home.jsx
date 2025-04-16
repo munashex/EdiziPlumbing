@@ -113,7 +113,7 @@ const Home = () => {
             <h1 className="text-2xl font-bold md:text-3xl lg:text-5xl">{info.tite}</h1> 
             <h1>{info.description}</h1> 
 
-            <ul role="list"  className="text-lg list-disc list-inside font-bold space-y-2"> 
+            <ul role="list"  className="text-lg list-disc list-outside font-bold space-y-2"> 
             <li>{info.shortDescription1}</li> 
             <li>{info.shortDescription2}</li> 
             <li>{info.shortDescription3}</li>
