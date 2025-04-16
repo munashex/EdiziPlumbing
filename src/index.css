@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=M+PLUS+Rounded+1c&display=swap");
+@import "tailwindcss";
+
+
+@layer utilities {
+  .font-manrope {
+    font-family: "Manrope", sans-serif;
+  }
+
+  .font-rounded {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+}
+
+
