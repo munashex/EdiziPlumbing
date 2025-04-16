@@ -4,6 +4,7 @@ import { navlinks } from '../data/app';
 import { IoMdClose } from "react-icons/io";
 import { useState } from 'react'; 
 import { Link, useNavigate, useLocation} from 'react-router-dom';
+import { IoCallOutline } from "react-icons/io5";
 
 
 const Navbar = () => {
@@ -19,11 +20,14 @@ const navigate = useNavigate()
         <div className="animate-fade-down">
           {/* navbar on small screens  & md */} 
           <div className="flex lg:hidden items-center my-3 justify-between">
+           
+           <Link to="/">
             <img 
             src={Logo} 
             alt="Edizi" 
             className="w-28"
             />
+            </Link>
             <div className="flex items-center gap-x-7">
             <button onClick={OpenNav} className="relative w-[40px] h-[40px] outline-none cursor-pointer">
             <span className="absolute inset-0 transition-opacity duration-300 ease-in-out"
@@ -36,7 +40,7 @@ const navigate = useNavigate()
           </span>
           </button>
 
-           <button onClick={() => navigate('/contact')}  className="bg-[#ed1c24] transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-0.5 px-5 text-lg rounded-md text-white font-bold">Contact</button>
+           <button onClick={() => navigate('/contact')}  className="bg-red transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-0.5 px-5 text-lg rounded-md text-white font-bold">Contact</button>
             </div>
           </div> 
 
@@ -58,12 +62,13 @@ const navigate = useNavigate()
 
            {/* navbar on lg screens */} 
            <div className="hidden lg:flex flex-row my-4  items-center justify-between">
-
+             <Link to="/">
             <img 
             src={Logo}
             className="w-32"
             alt="Ediziplumbling"
             />
+            </Link>
 
             <div className="flex flex-row gap-x-7 items-center bg-light py-2 px-9 rounded-md">
              {navlinks.map((link) => (
@@ -74,8 +79,11 @@ const navigate = useNavigate()
              </Link>
              ))}
             </div>
-
-            <button onClick={() => navigate('/contact')} className="bg-[#ed1c24] transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-1 px-5 text-lg rounded-md text-white font-bold">Contact</button>
+             
+             <a href="tel:" className="flex items-center gap-9">
+              <span className="font-bold oldstyle-nums text-sm inline-flex items-center gap-1"><IoCallOutline size={25}/>(595) 555-0123</span>
+            <button onClick={() => navigate('/contact')} className="bg-red transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-1 px-5 text-lg rounded-md text-white font-bold">Contact</button>
+            </a>
            </div>
 
         </div>
