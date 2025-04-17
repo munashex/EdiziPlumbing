@@ -105,12 +105,11 @@ const Navbar = () => {
                 <IoCallOutline size={25} />
                 07397 191 375
               </span>
-              <button
-                onClick={() => navigate('/contact')}
+              <a  href="tel:07397191375"
                 className="bg-red transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-1 px-5 text-lg rounded-md text-white font-bold"
               >
                 Contact
-              </button>
+              </a>
             </a>
           </div>
         </div>

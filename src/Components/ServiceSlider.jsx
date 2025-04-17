@@ -28,7 +28,7 @@ import {
     ];
   
     return (
-      <div className="bg-red-600 text-white py-2 overflow-hidden group">
+      <div className="bg-red text-white py-2 overflow-hidden group">
         <div className="inline-flex items-center animate-infinite-scroll group-hover:pause whitespace-nowrap">
           {services.map((service, index) => (
             <div 

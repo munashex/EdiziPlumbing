@@ -2,6 +2,21 @@ import process1 from '../images/process1.svg'
 import process2 from '../images/process2.svg'
 import process3 from '../images/process3.svg'
 import aboutUs from '../images/aboutUs.jpg'
+ 
+import img1 from '../images/1.jpg';
+import img2 from '../images/2.jpg';
+import img3 from '../images/3.jpg';
+import img4 from '../images/4.jpg';
+import img5 from '../images/5.jpg';
+import img6 from '../images/6.jpg';
+import img7 from '../images/7.jpg';
+import img8 from '../images/8.jpg';
+import img9 from '../images/9.jpg';
+import img10 from '../images/10.jpg';
+import img11 from '../images/11.jpg';
+import img12 from '../images/12.jpg';
+import img13 from '../images/13.jpg';
+import img14 from '../images/14.jpg';
 
 const navlinks = [
     {
@@ -11,11 +26,7 @@ const navlinks = [
     {
      name: "Services", 
      url: "/Services"
-    }, 
-    {
-    name: "About", 
-    url: "/About"
-    }
+    },    
 ]
 
 const process =  [
@@ -69,6 +80,95 @@ const plumbingFaq = [
       description: "Yes, we offer routine plumbing and heating maintenance to help prevent future issues and keep your systems running efficiently year-round."
     }
   ]
+
+
+const services = [
+    {
+      name: "Mixer & Single Taps",
+      description:
+        "At Edizi, we repair or install all types of taps including sink, shower mixers, bath, basin, and outside taps. We can also fit the taps you provide.",
+      image: img1,
+    },
+    {
+      name: "Toilet Flushes & Valves",
+      description:
+        "Toilet issues are our specialty at Edizi. We repair, replace, and install flushes, float valves, overflows, and leaking toilet components.",
+      image: img2,
+    },
+    {
+      name: "Shower Repairs & Installs",
+      description:
+        "With Edizi’s deep shower expertise, we handle installation and repairs of power, electric, and mixer showers with ease.",
+      image: img3,
+    },
+    {
+      name: "Hot Water Cylinders",
+      description:
+        "We know hot water systems inside out. Edizi handles all hot water cylinders, immersion heaters, and roof storage tank issues efficiently.",
+      image: img4,
+    },
+    {
+      name: "Cold Water Storage Tanks",
+      description:
+        "Leaking or dusty cold water storage tanks? Edizi inspects, replaces lids, and ensures proper lagging to avoid damage or contamination.",
+      image: img5,
+    },
+    {
+      name: "Emergency Plumbing",
+      description:
+        "Plumbing emergency? Don’t worry. Call Edizi for immediate response. We fix emergency leaks fast – your LOCAL plumber is nearby!",
+      image: img6,
+    },
+    {
+      name: "Clogged Sinks & Traps",
+      description:
+        "Blocked kitchen or bathroom sink? Edizi brings the latest tools to unblock fast and get your space functioning again.",
+      image: img7,
+    },
+    {
+      name: "Blocked Showers & Baths",
+      description:
+        "Don’t let a blocked shower or bath ruin your day. Edizi uses expert methods to clear blockages quickly and cleanly.",
+      image: img8,
+    },
+    {
+      name: "Blocked Toilets & Pipes",
+      description:
+        "Blocked toilets are no match for Edizi. We handle both upstairs and downstairs issues with speed and professionalism.",
+      image: img9,
+    },
+    {
+      name: "Leaking Pipes & Fittings",
+      description:
+        "Those tiny pipe leaks can cause big problems. Edizi fixes leaking pipes and fittings fast with reliable long-term solutions.",
+      image: img10,
+    },
+    {
+      name: "Ballvalves & Overflows",
+      description:
+        "A dripping overflow? Edizi sorts all ballvalves and overflow pipe issues quickly to stop that annoying constant drip.",
+      image: img11,
+    },
+    {
+      name: "Mains Water Stopcocks",
+      description:
+        "The most important valve in your home! Edizi ensures your mains stopcock is working and under control.",
+      image: img12,
+    },
+    {
+      name: "Kitchen Plumbing",
+      description:
+        "Need a washing machine or sink plumbed in? Edizi does all kitchen plumbing from water lines to waste pipework, quickly and neatly.",
+      image: img13,
+    },
+    {
+      name: "Bathroom Plumbing",
+      description:
+        "Bathroom leaks or blockages? Edizi handles all types of bathroom plumbing issues with minimal disruption and fast service.",
+      image: img14,
+    },
+  ];
   
 
-export {navlinks, process, aboutData, plumbingFaq}
+
+export {navlinks, process, aboutData, plumbingFaq, services}
