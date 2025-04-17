@@ -70,15 +70,12 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <button
-                onClick={() => {
-                  OpenNav();
-                  navigate('/contact');
-                }}
+              <a
+                href="tel:07397191375"
                 className="bg-red transition delay-75 duration-100 hover:bg-red-700 hover:scale-105 py-1 px-5 text-lg rounded-md text-white font-bold mt-4"
               >
                 Contact
-              </button>
+              </a>
             </div>
           )}
 
