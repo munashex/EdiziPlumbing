@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Services from "./pages/Services"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Footer from './Components/Footer'
+import NotFound from "./pages/NotFound"
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/> 
         <Route path="/services" element={<Services/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </Router>
