@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* Small screen navbar */}
           <div className="flex lg:hidden items-center my-3 justify-between px-4 py-2">
             <Link to="/">
-              <img src={Logo} alt="Edizi" className="w-28" />
+              <img src={Logo} alt="Edizi" className="w-40" />
             </Link>
             <div className="flex items-center gap-x-5">
               <button onClick={OpenNav} className="relative w-[40px] h-[40px] outline-none cursor-pointer">
@@ -85,7 +85,7 @@ const Navbar = () => {
           {/* Large screen navbar */}
           <div className={`hidden lg:flex flex-row items-center justify-between my-4 px-6 ${isSticky ? 'py-2' : 'py-2'}`}>
             <Link to="/">
-              <img src={Logo} className="w-32" alt="Ediziplumbing" />
+              <img src={Logo} className="w-44" alt="Ediziplumbing" />
             </Link>
 
             <div className="flex flex-row gap-x-7 items-center bg-light py-2 px-9 rounded-md">
