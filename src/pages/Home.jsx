@@ -32,9 +32,9 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col gap-8 lg:flex-row">
-          <button className="bg-red w-fit text-white text-lg py-1 px-5 rounded-lg font-bold cursor-pointer transition delay-75 duration-100 hover:scale-105 hover:bg-red-700">
+          <Link to="/services" className="bg-red w-fit text-white text-lg py-1 px-5 rounded-lg font-bold cursor-pointer transition delay-75 duration-100 hover:scale-105 hover:bg-red-700">
             Explore our services
-          </button>
+          </Link>
 
           {/* Reviews Section */}
           <div className="flex flex-col gap-5 md:flex-row">
