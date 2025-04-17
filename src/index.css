@@ -19,4 +19,21 @@
   }
 }
 
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 30s linear infinite;
+}
+
+.group-hover\:pause:hover .animate-infinite-scroll {
+  animation-play-state: paused;
+}
+
 
