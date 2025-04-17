@@ -4,7 +4,8 @@ import review3 from '../images/review3.avif';
 import { FaStar } from 'react-icons/fa';
 import homeImage from '../images/homeImage.jpg';
 import { process, aboutData} from '../data/app';  
-import Faq from '../Components/Faq';
+import Faq from '../Components/Faq'; 
+import Location from '../Components/Location';
 
 
 const Home = () => {
@@ -127,6 +128,10 @@ const Home = () => {
       {/* faq section  */}
       <div className="mt-20 md:mt-24 lg:mt-44">
       <Faq/>
+      </div> 
+
+      <div className="mt-20 md:mt-25 lg:mt-44">
+        <Location/>
       </div>
     </div>
   );
