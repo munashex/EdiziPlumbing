@@ -3,7 +3,8 @@ import review2 from '../images/review2.avif';
 import review3 from '../images/review3.avif';
 import { FaStar } from 'react-icons/fa';
 import homeImage from '../images/homeImage.jpg';
-import { process, aboutData} from '../data/app'; 
+import { process, aboutData} from '../data/app';  
+import Faq from '../Components/Faq';
 
 
 const Home = () => {
@@ -113,7 +114,7 @@ const Home = () => {
             <h1 className="text-2xl font-bold md:text-3xl lg:text-5xl">{info.tite}</h1> 
             <h1>{info.description}</h1> 
 
-            <ul role="list"  className="text-lg list-disc list-outside font-bold space-y-2"> 
+            <ul role="list"  className="md:text-lg mx-4 list-disc list-outside font-bold space-y-2"> 
             <li>{info.shortDescription1}</li> 
             <li>{info.shortDescription2}</li> 
             <li>{info.shortDescription3}</li>
@@ -122,6 +123,11 @@ const Home = () => {
         </div>
         ))}
      </div>
+       
+      {/* faq section  */}
+      <div className="mt-20 md:mt-24 lg:mt-44">
+      <Faq/>
+      </div>
     </div>
   );
 };
