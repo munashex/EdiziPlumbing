@@ -5,7 +5,8 @@ import { FaStar } from 'react-icons/fa';
 import homeImage from '../images/homeImage.jpg';
 import { process, aboutData} from '../data/app';  
 import Faq from '../Components/Faq'; 
-import Location from '../Components/Location';
+import Location from '../Components/Location'; 
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
