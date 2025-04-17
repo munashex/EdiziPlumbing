@@ -76,7 +76,7 @@ const ServiceCard = ({ service }) => {
         <img
           src={service.image}
           alt={service.name}
-          className={`w-full h-full object-cover ${loading ? "hidden" : "block"}`}
+          className="w-full h-full object-cover"
           loading="lazy"
           onLoad={() => setLoading(false)}
           onError={(e) => {
@@ -94,3 +94,4 @@ const ServiceCard = ({ service }) => {
 };
 
 export default Services;
+
