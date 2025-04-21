@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div>
-    <div className="mt-11 lg:mt-28 flex flex-col lg:flex-row gap-x-2 gap-y-20">
+    <div className="mt-16 lg:mt-36 flex flex-col lg:flex-row gap-x-2 gap-y-20">
       
       {/* Left Content */}
       <div className="space-y-8 lg:space-y-12 lg:w-1/2">

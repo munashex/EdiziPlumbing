@@ -43,7 +43,7 @@ const Services = () => {
         />
       </Helmet>
 
-      <div className="mt-12 md:mt-16 lg:mt-24">
+      <div className="mt-16 lg:mt-36">
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-2xl font-bold md:text-3xl lg:text-5xl">Services</h1>
           <p className="text-center lg:max-w-xl lg:text-lg">
