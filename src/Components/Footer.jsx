@@ -2,7 +2,6 @@ import { navlinks } from "../data/app";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  // Function to handle scroll to top
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -17,12 +16,15 @@ const Footer = () => {
         <h1 className="text-2xl font-bold md:text-3xl lg:text-5xl">
           Let's get in touch
         </h1>
+
+        {/* Button-style phone number */}
         <a
           href="tel:07397191375"
-          className="font-bold bg-black py-2 lg:py-3 px-6 lg:px-8 rounded-md transition transform duration-200 hover:scale-105"
-          aria-label="Call us now"
+          className="flex items-center gap-2 bg-black text-white font-bold px-6 py-2 lg:px-8 lg:py-3 rounded-md hover:scale-105 transition duration-200"
+          aria-label="Call us at 07397191375"
         >
-          Contact Us
+          <span>Call us at:</span>
+          <span className="underline">07397 191 375</span>
         </a>
       </div>
 
@@ -32,7 +34,7 @@ const Footer = () => {
           <Link
             to={item.url}
             key={index}
-            onClick={handleScrollToTop}  // Added click handler
+            onClick={handleScrollToTop}
             className="hover:underline transition-opacity duration-150 hover:opacity-100"
             aria-label={`Go to ${item.name}`}
           >

@@ -10,7 +10,7 @@ const Location = () => {
           Let's get in touch and work together!
         </h1>
         <h1>
-          Whether you’re dealing with an emergency, need routine maintenance, or have a question about our services, our team at Edizing Plumbing and Heating is ready to assist you.
+          Whether you’re dealing with an emergency, need routine maintenance, or have a question about our services, our team at Nearby Plumbers is ready to assist you.
         </h1>
 
         <div className="flex flex-col gap-3">
@@ -47,5 +47,3 @@ const Location = () => {
 };
 
 export default Location;
-
-

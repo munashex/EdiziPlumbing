@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div>
-    <div className="mt-11 lg:mt-24 flex flex-col lg:flex-row gap-x-2 gap-y-20">
+    <div className="mt-11 lg:mt-28 flex flex-col lg:flex-row gap-x-2 gap-y-20">
       
       {/* Left Content */}
       <div className="space-y-8 lg:space-y-12 lg:w-1/2">
@@ -27,7 +27,7 @@ const Home = () => {
             Your trusted plumbing and heating solutions
           </h1>
           <h1>
-            At Edizi Plumbing and Heating, we’ve built a reputation for delivering top-notch
+            At Nearby Plumbers and Heating, we’ve built a reputation for delivering top-notch
             plumbing solutions tailored to meet your needs
           </h1>
         </div>
@@ -68,7 +68,7 @@ const Home = () => {
       <div className="lg:w-1/2 relative">
         <img
           src={homeImage}
-          alt="ediziplumbing"
+          alt="nearbyplumbers"
           className="w-full h-96 lg:h-[500px] object-cover border rounded-2xl border-[#F5F5F5]"
         />
 
@@ -106,7 +106,7 @@ const Home = () => {
         <div key={info.description} className="flex flex-col gap-y-9 gap-x-16 lg:flex-row"> 
          <div className="lg:w-1/2"> 
          <img src={info.image}  
-         alt="ediziplumbing" 
+         alt="nearbyplumbers" 
           className="w-full h-96 lg:h-[500px] object-cover border rounded-2xl border-[#F5F5F5]"
          />
          </div>

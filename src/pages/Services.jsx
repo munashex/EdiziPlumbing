@@ -6,22 +6,22 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Plumbing Services | Edizi</title>
+        <title>Plumbing Services | Nearby Plumbers</title>
         <meta
           name="description"
-          content="Explore Edizi's full range of plumbing and heating services including repairs, installations, emergency plumbing and more."
+          content="Explore Nearby Plumbers' full range of plumbing and heating services including repairs, installations, emergency plumbing and more."
         />
         <meta
           name="keywords"
-          content="Edizi plumbing, heating services, emergency plumbing, tap repair, toilet repair, shower installation"
+          content="Nearby Plumbers, heating services, emergency plumbing, tap repair, toilet repair, shower installation"
         />
-        <meta name="author" content="Edizi Plumbing and Heating Ltd" />
+        <meta name="author" content="Nearby Plumbers Ltd" />
 
         {/* Open Graph / Facebook */}
-        <meta property="og:title" content="Plumbing Services | Edizi" />
+        <meta property="og:title" content="Plumbing Services | Nearby Plumbers" />
         <meta
           property="og:description"
-          content="Professional plumbing and heating solutions by Edizi. Taps, showers, toilets, emergency leaks and more."
+          content="Professional plumbing and heating solutions by Nearby Plumbers. Taps, showers, toilets, emergency leaks and more."
         />
         <meta property="og:url" content="https://yourdomain.com/services" />
         <meta
@@ -32,10 +32,10 @@ const Services = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Plumbing Services | Edizi" />
+        <meta name="twitter:title" content="Plumbing Services | Nearby Plumbers" />
         <meta
           name="twitter:description"
-          content="Edizi provides professional plumbing and heating services for homes and businesses."
+          content="Nearby Plumbers provides professional plumbing and heating services for homes and businesses."
         />
         <meta
           name="twitter:image"
