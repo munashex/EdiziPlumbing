@@ -85,7 +85,7 @@ const Navbar = () => {
           )}
 
           {/* Large screen navbar */}
-          <div className={`hidden lg:flex flex-row items-center justify-between my-4 px-6 ${isSticky ? 'py-2' : 'py-2'}`}>
+          <div className={`hidden lg:flex flex-row items-center justify-between  px-4 ${isSticky ? 'py-2' : 'py-2'}`}>
             <Link to="/">
               <img src={Logo} className="w-36" alt="Ediziplumbing" />
             </Link>
