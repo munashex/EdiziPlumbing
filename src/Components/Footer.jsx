@@ -1,5 +1,6 @@
 import { navlinks } from "../data/app";
 import { Link } from "react-router-dom";
+import { IoCallOutline } from "react-icons/io5";
 
 const Footer = () => {
   const handleScrollToTop = () => {
@@ -23,6 +24,9 @@ const Footer = () => {
           className="flex items-center gap-2 bg-black text-white font-bold px-6 py-2 lg:px-8 lg:py-3 rounded-md hover:scale-105 transition duration-200"
           aria-label="Call us at 07397191375"
         >
+          <span className="bg-white p-2 rounded-full">
+            < IoCallOutline size={20} color="black"/>
+            </span>
           <span>Call us at:</span>
           <span className="underline">07397 191 375</span>
         </a>

@@ -32,7 +32,7 @@ const Navbar = () => {
 
       {/* Sticky Navbar Wrapper */}
       <div className={`w-full z-50 ${isSticky ? 'fixed top-0 left-0 right-0' : 'relative'}`}>
-        <div className={`w-full ${isSticky ? 'bg-white/90 backdrop-blur-md shadow-md' : 'bg-white'}`}>
+        <div className={`w-full ${isSticky ? 'bg-white/90 backdrop-blur-md shadow-md px-2' : 'bg-white'}`}>
           {/* Small screen navbar */}
           <div className="flex lg:hidden items-center  justify-between  py-1.5">
             <Link to="/">
