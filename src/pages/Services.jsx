@@ -23,10 +23,10 @@ const Services = () => {
           property="og:description"
           content="Professional plumbing and heating solutions by Nearby Plumbers. Taps, showers, toilets, emergency leaks and more."
         />
-        <meta property="og:url" content="https://yourdomain.com/services" />
+        <meta property="og:url" content="https://www.nearbyplumbers.co.uk/services" />
         <meta
           property="og:image"
-          content="https://yourdomain.com/og-image.jpg"
+          content="https://www.nearbyplumbers.co.uk/og-image.jpg"
         />
         <meta property="og:type" content="website" />
 
@@ -39,7 +39,7 @@ const Services = () => {
         />
         <meta
           name="twitter:image"
-          content="https://yourdomain.com/og-image.jpg"
+          content="https://www.nearbyplumbers.co.uk/og-image.jpg"
         />
       </Helmet>
 
@@ -94,4 +94,5 @@ const ServiceCard = ({ service }) => {
 };
 
 export default Services;
+
 

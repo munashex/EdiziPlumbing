@@ -79,7 +79,7 @@ const Navbar = () => {
                 <IoCallOutline size={20} color="red"/>
                 </span>
                 <span>Call us at:</span>
-                <span className="underline">07397 191 375</span>
+                <span className="underline text-2xl">07397 191 375</span>
               </a>
             </div>
           )}
