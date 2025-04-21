@@ -49,7 +49,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <h1 className="text-sm mt-9 text-center font-bold">
-        © Edizi Plumbing and Heating Ltd. All rights reserved.
+      ©Nearby Plumbers Ltd. All rights reserved
       </h1>
     </div>
   );
