@@ -1,12 +1,4 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Near By Plumbers delivers expert plumbing services with a focus on reliability and customer satisfaction. Specializing in emergency repairs, installations, and maintenance, the company ensures that all plumbing needs are met with professional efficiency. Their team of certified plumbers is equipped to handle everything from leaky faucets to complex pipe systems.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+With a commitment to quality service, Near By Plumbers offers prompt responses and long-term solutions. Their approach combines technical expertise with transparent communication, building trust with clients and ensuring peace of mind for all plumbing-related concerns.
