@@ -68,7 +68,7 @@ const Home = () => {
       <div className="lg:w-1/2 relative">
         <img
           src={homeImage}
-          alt="nearbyplumbers"
+          alt="nearby plumbers"
           className="w-full h-96 lg:h-[500px] object-cover border rounded-2xl border-[#F5F5F5]"
         />
 
@@ -106,7 +106,7 @@ const Home = () => {
         <div key={info.description} className="flex flex-col gap-y-9 gap-x-16 lg:flex-row"> 
          <div className="lg:w-1/2"> 
          <img src={info.image}  
-         alt="nearbyplumbers" 
+         alt="nearby plumbers" 
           className="w-full h-96 lg:h-[500px] object-cover border rounded-2xl border-[#F5F5F5]"
          />
          </div>
