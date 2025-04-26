@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { services } from "../data/app";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async"; 
 
 const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Plumbing Services | Nearby Plumbers</title>
+        <title>Services</title>
         <meta
           name="description"
           content="Explore Nearby Plumbers' full range of plumbing and heating services including repairs, installations, emergency plumbing and more."
